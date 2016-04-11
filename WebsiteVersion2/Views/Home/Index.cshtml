@@ -1,0 +1,110 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="box">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="row" align="center">
+                    <h1>
+                        Welcome!
+                    </h1>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <p align="left">I am a Computer Science student in the National University of Ireland, Galway graduating in 2016. Feel free to have a look around!</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+                <br />
+
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <h2 align="center">
+                            Me, Myself and I.
+                        </h2>
+                        <div align="center">
+                            <p>Some background information about myself if you want to know more about me.</p>
+                            <a href="@Url.Action("About", "Home")" class="btn btn-primary">
+                                About Me
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <h2 align="center">
+                            My Previous Work.
+                        </h2>
+                        <div align="center">
+                            <p>Some of the projects that I've worked on in the past, to give an idea of what I like to work on.</p>
+                            <a href="@Url.Action("CompletedProjects", "Home")" class="btn btn-primary">
+                                Completed Projects
+                                <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+                <br />
+                <br />
+
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <h2 align="center">
+                            Get in touch.
+                        </h2>
+                        <div align="center">
+                            <p>All you need to know if you want to get in contact with me.</p>
+                            <a href="@Url.Action("Contact", "Home")" class="btn btn-primary">
+                                Contact Me
+                                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <h2 align="center">
+                            Need someone to hire?
+                        </h2>
+                        <div align="center">
+                            <p>Then look no further! Here's all the related information if you want hire me.</p>
+                            <a href="@Url.Action("Hire", "Home")" class="btn btn-primary">
+                                Hire Me
+                                <span class="glyphicon glyphicon-euro" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+                <br />
+
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <h2 align="center">
+                            My CV.
+                        </h2>
+                        <div align="center">
+                            <p>Here's my CV if that's all you need!</p>
+                            <a href="@Url.Action("DownloadCV", "Home", new { fileName = "NiallMartinCV" })" class="btn btn-primary">
+                                My CV
+                                <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

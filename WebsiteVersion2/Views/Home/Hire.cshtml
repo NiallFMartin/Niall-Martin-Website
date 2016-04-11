@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Hire Me";
+}
+
+
+<div class="box">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Hire Me</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <h2 align="center">
+                        Business Inquiries.
+                    </h2>
+                    <div align="center">
+                        <p>If you have a job for me get in touch with me by clicking the button below or send your message to bussiness@@niallmartin.com.</p>
+                        <a href="mailto:business@niallmartin.com" class="btn btn-primary">
+                            Email Me
+                            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <h2 align="center">
+                        My CV.
+                    </h2>
+                    <div align="center">
+                        <p>You can download a copy of my CV here.</p>
+                        <a href="@Url.Action("DownloadCV", "Home", new { fileName = "NiallMartinCV" })" class="btn btn-primary">
+                            My CV
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
