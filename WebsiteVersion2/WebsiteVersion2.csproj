@@ -133,7 +133,7 @@
     <Content Include="Images\Me.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Files\NiallmartinCV.pdf" />
+    <Content Include="Files\NiallMartinCV.pdf" />
     <None Include="Properties\PublishProfiles\NiallMartin - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\niallmartin.com - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
